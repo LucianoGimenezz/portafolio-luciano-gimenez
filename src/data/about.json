@@ -1,0 +1,17 @@
+{
+    "about": {
+        "es": "Hola! ✋ Soy Luciano Giménez, un desarrollador Full Stack Web con base en Buenos Aires, Argentina. Con una pasión por el código y una mente proactiva. Además del código también  me gusta mucho el fitness, si no estoy codeando estoy en el gym."
+    },
+    "skills": [
+        "TypeScript",
+        "React",
+        "Next",
+        "Angular",
+        "Tailwind",
+        ".Net",
+        "Node",
+        "Postgres",
+        "MongoDB",
+        "Express"
+    ]
+}

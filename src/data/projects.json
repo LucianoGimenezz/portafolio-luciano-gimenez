@@ -1,0 +1,27 @@
+[
+    {
+        "es": {
+            "title": "JavaScript Quiz",
+            "image": "https://luciano-gimenez-bk.s3.sa-east-1.amazonaws.com/976shots_so.png",
+            "description": "Prueba tus conocimientos de JavaScript mediante este quiz. ",
+            "stack": [
+                "React",
+                "Zustand",
+                "TypeScript"
+            ]
+        },
+        "en": {}
+    },
+    {
+        "es": {
+            "title": "BookZon",
+            "image": "https://luciano-gimenez-bk.s3.sa-east-1.amazonaws.com/838shots_so.png",
+            "description": "Aplicación de libros. Es una prueba técnica compartida por @midudev.",
+            "stack": [
+                "Next",
+                "TypeScript"
+            ]
+        },
+        "en": {}
+    }
+]
