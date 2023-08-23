@@ -10,7 +10,9 @@
                 "TypeScript"
             ]
         },
-        "en": {}
+        "en": {},
+        "github": "https://github.com/LucianoGimenezz/javascript-quiz",
+        "deploy": "https://javascript-quiz-3bxr.vercel.app/"
     },
     {
         "es": {
@@ -22,6 +24,34 @@
                 "TypeScript"
             ]
         },
-        "en": {}
+        "en": {},
+        "github": "https://github.com/LucianoGimenezz/pruebas-tecnicas/tree/main/pruebas/01-reading-list/lucianogimenezzv1",
+        "deploy": "https://pruebas-tecnicas-books.vercel.app/"
+    },
+    {
+        "es": {
+            "title": "GifsApp",
+            "image": "https://luciano-gimenez-bk.s3.sa-east-1.amazonaws.com/26shots_so.png",
+            "description": "Aplicación de gifs, busca cualquier gif que desees. Usando la Api de giphy.com",
+            "stack": [
+                "Angular"
+            ]
+        },
+        "en": {},
+        "github": "https://github.com/LucianoGimenezz/gifs-app",
+        "deploy": "https://gifhys-app.netlify.app/"
+    },
+    {
+        "es": {
+            "title": "Countries App",
+            "image": "https://luciano-gimenez-bk.s3.sa-east-1.amazonaws.com/116shots_so.png",
+            "description": "Aplicación de busqueda de paises, con debounce, routing y más.",
+            "stack": [
+                "Angular"
+            ]
+        },
+        "en": {},
+        "github": "https://github.com/LucianoGimenezz/countries-app",
+        "deploy": "https://countriesapp-angular.netlify.app/"
     }
 ]

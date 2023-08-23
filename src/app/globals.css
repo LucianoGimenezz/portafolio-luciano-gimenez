@@ -15,3 +15,25 @@ body {
 p {
   text-wrap: balance;
 }
+
+@layer components {
+  .input-container {
+    @apply flex flex-col mt-4 relative
+  }
+
+  .input-container>input,
+  .input-container>textarea {
+    @apply py-2 px-2 rounded-md outline-none bg-brand border border-brand-secondary
+  }
+
+  .input-container>input:valid~span,
+  .input-container>input:focus~span,
+  .input-container>textarea:focus~span,
+  .input-container>textarea:valid~span {
+    @apply translate-x-2 -translate-y-6 transition-transform bg-brand
+  }
+
+  .label-form {
+    @apply absolute top-2 left-2 text-brand-secondary transition-transform pointer-events-none
+  }
+}
