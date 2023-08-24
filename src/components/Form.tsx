@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { toast, Toaster } from 'sonner'
 
 export default function Form () {
   const [isLoading, setIsLoading] = useState(false)
@@ -17,6 +18,10 @@ export default function Form () {
         }
         return await res.json()
       })
+      .then(data => {
+        toast.success('Email enviado')
+        console.log({ data })
+      })
       .catch(err => {
         console.error(err)
       }).finally(() => {
@@ -27,6 +32,7 @@ export default function Form () {
 
   return (
         <form onSubmit={hadleSubmit} className='flex flex-col w-full gap-y-2'>
+        <Toaster richColors />
         <div className='input-container'>
           <input required type="text" name='name'/>
           <span className='label-form '>Nombre</span>
