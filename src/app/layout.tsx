@@ -16,6 +16,17 @@ export default function RootLayout ({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Luciano Gimenez Desarrollador Full-Stack</title>
+        <meta name="description" content='Hola! ✋ Soy Luciano Giménez, un desarrollador Full Stack Web con base en Buenos Aires, Argentina.' />
+
+        <meta property='og:title' content='Luciano Gimenez Full Stack Web - Portafolio '/>
+        <meta property='og:description' content='Hola! ✋ Soy Luciano Giménez, un desarrollador Full Stack Web con base en Buenos Aires, Argentina.' />
+        <meta property='og:image' content='/src/assets/IMG_20220413_151800490(1)-min.jpg' />
+        <meta property='og:image:alt' content='Fotografia de Luciano Gimenez mirando al frente' />
+
+        <meta name='robots' content='index, follow'/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
